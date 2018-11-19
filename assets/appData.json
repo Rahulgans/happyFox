@@ -1,0 +1,1178 @@
+
+
+{
+
+	"appData": {
+
+		"pricingOptions" : [
+
+			{
+
+				"plan_type": "Mighty" ,
+
+				"plan_price_monthly": 29,
+
+				"plan_price_annual": 39
+
+			},
+
+			{
+
+				"plan_type": "Fantastic" ,
+
+				"plan_price_monthly": 49,
+
+				"plan_price_annual": 59
+
+			},
+
+			{
+
+				"plan_type": "Enterprise" ,
+
+				"plan_price_monthly": 69,
+
+				"plan_price_annual": 79
+
+			},
+
+			{
+
+				"plan_type": "Enterprise Plus" ,
+
+				"plan_price_monthly": 89,
+
+				"plan_price_annual": 99
+
+			}
+
+		],
+
+		"pricingFeatures": [
+
+			{
+
+				"title": "ticket management",
+
+				"fields": [
+
+					{
+
+						"sub_title": "import contacts",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "canned actions (macros)",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "agent collision",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Round Robin Assignment",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "SLA Management",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Contact Groups",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Automatic Time Tracker",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Satisfaction Surveys",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "SLA Breach Notification",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Custom Ticket Queues",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Proactive Agent Collision",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": false,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Task Management",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": false,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Asset Management",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": false,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Scheduled Tickets",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": false,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Lite Users",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": false,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Sentiment Analysis",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": false,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+						
+					},
+
+					{
+
+						"sub_title": "Attachment Store (GB)",
+
+						"mighty_plan": 50,
+
+						"fantastic_plan": 200,
+
+						"enterprise_plan": 500,
+
+						"enterprise_plus_plan": 1024
+						
+					}
+
+				]
+
+			},
+
+			{
+
+				"title": "support center",
+
+				"fields": [
+
+					{
+
+						"sub_title": "Self-Service Knowledge Base",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Internal Knowledge Base",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Knowledge Base Notifications",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Community forums",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Multi-branding with Custom Domain",
+
+						"mighty_plan": "3 brands",
+
+						"fantastic_plan": "5 brands",
+
+						"enterprise_plan": "10 brands",
+
+						"enterprise_plus_plan": "15 brands"
+
+					},
+
+					{
+
+						"sub_title": "Multi-lingual Knowledge Base",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Multi-brand Help Desk with SSL Support",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					}
+
+				]
+
+			},
+
+			{
+
+				"title": "reporting",
+
+				"fields": [
+
+					{
+
+						"sub_title": "Dashboard",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Ticket Filters",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Export Tickets to CSV or Excel",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Build your Own Reports",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Scheduled Reports",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Reports on SLA Performance",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Ticket Life Cycle Reports",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Reporting history",
+
+						"mighty_plan": "Last 1 year",
+
+						"fantastic_plan": "Last 3 years",
+
+						"enterprise_plan": "Last 5 years",
+
+						"enterprise_plus_plan": "All Time"
+
+					},
+
+					{
+
+						"sub_title": "Smart Rule Metrics",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Satisfaction Survey Reporting",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Custom Dashboard",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Reports on custom fields",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": false,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					}
+
+				]
+
+			},
+
+			{
+
+				"title": "security",
+
+				"fields": [
+
+					{
+
+						"sub_title": "role based security",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "SSL Certificate Hosting (Custom Domain)",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Export Tickets to CSV or Excel",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Single Sign-on (Google Apps/SAML)",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "IP Based Restriction",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Two Factor Authentication",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Your Own Single Sign-on (JWT)",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Digitally Signed Emails (DKIM)",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Password Policy Management",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": false,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					}					
+
+				]
+
+			},
+
+			{
+
+				"title": "support",
+
+				"fields": [
+
+					{
+
+						"sub_title": "Customizable Status/Priority",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Custom Notification Email Templates",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Custom Fields",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Code Editor for Support Center",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Custom Domain Mapping",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					}
+
+				]
+
+			},
+
+			{
+
+				"title": "third party integrations",
+
+				"fields": [
+
+					{
+
+						"sub_title": "Facebook Integrations",
+
+						"mighty_plan": "3 Pages",
+
+						"fantastic_plan": "5 Pages",
+
+						"enterprise_plan": "7 Pages",
+
+						"enterprise_plus_plan": "10 Pages"
+
+					},
+
+					{
+
+						"sub_title": "Twitter Integrations",
+
+						"mighty_plan": "2 Accounts",
+
+						"fantastic_plan": "5 Accounts",
+
+						"enterprise_plan": "7 Accounts",
+
+						"enterprise_plus_plan": "10 Accounts"
+
+					},
+
+					{
+
+						"sub_title": "Zoho CRM",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Batchbook",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Highrise",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Infusionsoft",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Salesforce CRM Integration",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Insightly",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "SugarCRM Integration",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Pipedrive CRM Integration",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "SnapEngage",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Olark Live Chat",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+
+					{
+
+						"sub_title": "P3chat",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Twilio Voice",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+
+					{
+
+						"sub_title": "JIRA Integration",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "RingCentral Phone Integration",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Microsoft Dynamics CRM (Online and On-Premise)",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "stripe",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "send sms",
+
+						"mighty_plan": false,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					}
+
+				]
+
+			},
+
+			
+			{
+
+				"title": "INBUILT INTEGRATIONS",
+
+				"fields": [
+
+					{
+
+						"sub_title": "REST API",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Embeddable Widget",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					},
+
+					{
+
+						"sub_title": "Webhooks Integration",
+
+						"mighty_plan": true,
+
+						"fantastic_plan": true,
+
+						"enterprise_plan": true,
+
+						"enterprise_plus_plan": true
+
+					}
+
+				]
+
+			},
+
+			{
+
+				"title": "pricing",
+
+				"fields": [
+
+					{
+
+						"sub_title": "Pay Annually (min. 3 agent)",
+
+						"mighty_plan": "$29 per agent/mo",
+
+						"fantastic_plan": "$49 per agent/mo",
+
+						"enterprise_plan": "$69 per agent/mo",
+
+						"enterprise_plus_plan": "$89 per agent/mo"
+
+					},
+
+					{
+
+						"sub_title": "Pay Monthly (min. 3 agent)",
+
+						"mighty_plan": "$39 per agent/mo",
+
+						"fantastic_plan": "$59 per agent/mo",
+
+						"enterprise_plan": "$79 per agent/mo",
+
+						"enterprise_plus_plan": "$99 per agent/mo"
+
+					}
+
+				]
+
+			}
+
+		]
+	
+	}
+
+}
+
+

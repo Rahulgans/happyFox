@@ -1,0 +1,294 @@
+
+
+
+html {
+  
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after { /* box sizing for all elements and pseudo selectors */
+
+  box-sizing: inherit;
+
+}
+
+
+body {
+
+	line-height: 1.5;
+
+	font-size: 16px;
+
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+a {
+
+	text-decoration: none;
+
+	color: black;
+
+	user-select: none;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+	margin: 0px;
+
+}
+
+
+p {
+
+	margin-top: 0px;
+
+	margin-bottom: 8px;
+
+}
+
+ul li {
+
+	list-style-type: none;
+
+}
+
+button:focus {
+
+	outline: none;
+
+}
+
+.hf__logo-link {
+
+	display: block;
+
+	padding: 0px 16px 0px 0px;
+
+	cursor: pointer;
+
+}
+
+.hf__logo {
+
+	max-width: 100%;
+
+	height: auto;
+
+}
+
+.hf__container {
+
+	width: 100%;
+
+	margin: 0px auto;
+
+}
+
+.hf__row {
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+}
+
+.hf__col {
+
+	flex-basis: 8.333333%;
+
+}
+
+.hf__col-2 {
+
+	flex-basis: 16.666667%;
+
+}
+
+.hf__col-3 {
+
+	flex-basis: 25%;
+
+}
+
+.hf__col-4 {
+
+	flex-basis: 33.333333%;
+
+}
+
+.hf__col-5 {
+
+	flex-basis: 41.666666%;
+
+}
+
+.hf__col-6 {
+
+	flex-basis: 50%;
+
+}
+
+.hf__col-7 {
+
+	flex-basis: 58.333333%;
+
+}
+
+.hf__col-8 {
+
+	flex-basis: 66.666666%;
+
+}
+
+.hf__col-9 {
+
+	flex-basis: 75%;
+
+}
+
+.hf__col-10 {
+
+	flex-basis: 83.333333%;
+
+}
+
+.hf__col-11 {
+
+	flex-basis: 91.666667%;
+
+}
+
+.hf__col-12 {
+
+	flex-basis: 100%;
+
+}
+
+
+.hf__list {
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+
+.hf__primary-btn {
+
+  padding: 12px 32px;
+
+  font-weight: 400;
+
+  background-color: #F16631;
+
+  color: white;
+
+  border-radius: 4px;
+
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+
+  cursor: pointer;
+
+  transition: all 0.2s ease-in;
+
+}
+
+.hf__primary-btn:hover {
+
+  box-shadow: none;
+
+  background-color: #FF7946;
+
+  transform: translateY(1px);
+
+}
+
+.hf__primary--text {
+
+	color: #F16631;
+
+}
+
+.hf__pricing-plan-heading {
+
+  font-size: 20px;
+
+  font-weight: 500;
+
+}
+
+.hf__pricing-plan-card--mighty {
+
+  color: #08C299;
+
+}
+
+.hf__pricing-plan-card--fantastic {
+
+  color: #E2434B;
+
+}
+
+.hf__pricing-plan-card--enterprise {
+
+  color: #429FFD;
+
+}
+
+.hf__pricing-plan-card--plus {
+
+  color: #EF6C35;
+
+}
+
+.hf__pricing-support--text {
+
+  font-size: 13px;
+
+  color: #b3b3b3;
+
+}
+
+@media screen and (min-width: 576px) {
+
+	.hf__container {
+
+		max-width: 540px;
+
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	.hf__container {
+
+		max-width: 720px;
+
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+	.hf__container {
+
+		max-width: 960px;
+
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+	.hf__container {
+
+		max-width: 1140px;
+
+	}
+
+}
