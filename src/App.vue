@@ -4,9 +4,12 @@
 
   <div>
 
-    <navbar></navbar>
+    <navbar :productFeatures="pricingProductFeatures"></navbar>
 
-    <pricing-page class="hf__pricing-container"></pricing-page>
+    <pricing-page class="hf__pricing-container" :pricingPlanData="pricingPlanData" :pricingFeaturesTable="pricingFeaturesTable">
+      
+
+    </pricing-page>
 
   </div>
 
@@ -19,6 +22,8 @@ import Vue from 'vue';
 import navbar from './components/navbar.vue';
 
 import pricingPage from './pages/pricing.vue';
+
+import Axios from 'axios';
 
 export default {
 
@@ -36,14 +41,36 @@ export default {
 
     return {
 
+      pricingPlanData: [],
+
+      pricingFeaturesTable: [],
+
+      pricingProductFeatures: []
+
 
     }
 
   },
 
-  created() {
+  created() { // data available but DOM not yet ready
 
-    // data available but DOM not yet ready
+
+    Axios.get('../../assets/appData.json')
+
+    .then((response) => {
+
+      this.pricingPlanData = response.data.appData.pricingOptions;
+
+      this.pricingFeaturesTable = response.data.appData.pricingFeatures;
+
+      this.pricingProductFeatures = response.data.appData.productFeatures;
+
+
+    }).catch((error) => {
+
+      console.log(error);
+
+    })
 
   },
 
@@ -51,10 +78,16 @@ export default {
 
     // data available & DOM ready
 
+
   },
 
   methods: {
 
+
+
+  },
+
+  beforeDestroy() {
 
 
   }

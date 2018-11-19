@@ -4,7 +4,167 @@
 
 	"appData": {
 
-		"pricingOptions" : [
+		"productFeatures": [
+
+			{
+
+				"category": "product",
+
+				"sections": [
+
+					{
+
+						"title": "omni channel",
+
+						"sub_titles": ["email management", "knowledge base", "social media support", "self-service", "phone", "live chat"]
+
+					},
+
+					{
+
+						"title": "automation",
+
+						"sub_titles": ["auto assignment", "smart rules", "notifications", "SLA management"]
+
+					},
+
+					{
+
+						"title": "productivity",
+
+						"sub_titles": ["canned actions", "ticket templates", "queues", "task management", "kanban view"]
+
+					},
+
+					{
+
+						"title": "reporting",
+
+						"sub_titles": ["live reports"]
+
+					}
+
+				]
+
+			},
+
+			{
+
+				"category": "solutions",
+
+				"sections": [
+
+					{
+
+						"title": "by department",
+
+						"sub_titles": ["customer service", "IT", "human services", "marketing", "facilities"]
+
+					},
+
+					{
+
+						"title": "by industry",
+
+						"sub_titles": ["Ecommerce", "Education", "Non-profit", "IT services", "SaaS", "Telecom", "Travel", "real estate"]
+
+					},
+
+					{
+
+						"title": "by use case",
+
+						"sub_titles": ["Customer Support", "Email Management", "Internal Helpdesk", "Complaint Management"]
+
+					}
+			
+				]
+
+			},
+
+			{
+
+				"category": "integrations",
+
+				"sections": [
+
+					{
+
+						"title": "popular integrations",
+
+						"sub_titles": ["HappyFox Chat", "RingCentral", "Salesforce"]
+
+					},
+
+					{
+
+						"title": "all integrations",
+
+						"sub_titles": ["CRM", "Live chat", "social", "voice", "Project Management", "E-commerce", "Single Sign-on",
+
+							"Zapier", "Accounting", "Survey", "payment", "Contact Management"]
+
+					},
+
+					{
+
+						"title": "developer",
+
+						"sub_titles": ["API"]
+
+					}
+
+				]
+
+			},
+
+			{
+
+				"category": "resources",
+
+				"sections": [
+
+					{
+
+						"title": "Customers",
+
+						"sub_titles": ["Our Customers", "Case Studies"]
+
+					},
+
+					{
+
+						"title": "compare",
+
+						"sub_titles": ["Zendesk Alternative", "Zendesk Vs HappyFox", "Desk Alternative", "Kayako Alternative", "Uservoice Alternative",
+
+							"Gmail Alternative for Support"]
+
+					},
+
+					{
+
+						"title": "content",
+
+						"sub_titles": ["blog", "webinar", "customer resources", "videos", "setting up help desk"]
+
+					},
+
+					{
+
+						"title": "about us",
+
+						"sub_titles": ["company", "press", "careers"]
+
+					}
+
+				]
+
+			}
+
+		],
+
+		"pricingOptions": [
 
 			{
 
@@ -66,7 +226,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -80,7 +242,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -94,7 +258,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -108,7 +274,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -122,7 +290,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -136,7 +306,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -150,7 +322,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -164,7 +338,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -178,7 +354,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -192,7 +370,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -206,7 +386,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -220,7 +402,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -234,7 +418,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -248,7 +434,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 						
 					},
 
@@ -262,7 +450,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": true
 						
 					},
 
@@ -276,7 +466,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": true
 						
 					},
 
@@ -290,7 +482,9 @@
 
 						"enterprise_plan": 500,
 
-						"enterprise_plus_plan": 1024
+						"enterprise_plus_plan": 1024,
+
+						"status_planned": false
 						
 					}
 
@@ -314,7 +508,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -328,7 +524,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -342,7 +540,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -356,7 +556,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -370,8 +572,9 @@
 
 						"enterprise_plan": "10 brands",
 
-						"enterprise_plus_plan": "15 brands"
+						"enterprise_plus_plan": "15 brands" ,
 
+						"status_planned": false
 					},
 
 					{
@@ -384,7 +587,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -398,7 +603,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					}
 
@@ -422,7 +629,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -436,7 +645,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -450,7 +661,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -464,7 +677,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -478,7 +693,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -492,7 +709,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -506,7 +725,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -520,7 +741,9 @@
 
 						"enterprise_plan": "Last 5 years",
 
-						"enterprise_plus_plan": "All Time"
+						"enterprise_plus_plan": "All Time",
+
+						"status_planned": false
 
 					},
 
@@ -534,7 +757,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -548,7 +773,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -562,7 +789,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -576,7 +805,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					}
 
@@ -600,7 +831,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -614,7 +847,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -628,7 +863,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -642,7 +879,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -656,7 +895,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -670,7 +911,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -684,7 +927,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -698,7 +943,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": true
 
 					},
 
@@ -712,7 +959,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					}					
 
@@ -736,7 +985,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -750,7 +1001,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -764,7 +1017,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -778,7 +1033,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -792,7 +1049,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					}
 
@@ -816,7 +1075,9 @@
 
 						"enterprise_plan": "7 Pages",
 
-						"enterprise_plus_plan": "10 Pages"
+						"enterprise_plus_plan": "10 Pages",
+
+						"status_planned": false
 
 					},
 
@@ -830,7 +1091,9 @@
 
 						"enterprise_plan": "7 Accounts",
 
-						"enterprise_plus_plan": "10 Accounts"
+						"enterprise_plus_plan": "10 Accounts" ,
+
+						"status_planned": false
 
 					},
 
@@ -844,7 +1107,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -858,7 +1123,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -872,7 +1139,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -886,7 +1155,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -900,7 +1171,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -914,7 +1187,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -928,7 +1203,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -942,7 +1219,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -956,7 +1235,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -970,7 +1251,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -985,7 +1268,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -999,7 +1284,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -1014,7 +1301,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -1028,7 +1317,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -1042,7 +1333,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -1056,7 +1349,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -1070,7 +1365,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					}
 
@@ -1095,7 +1392,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -1109,7 +1408,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					},
 
@@ -1123,7 +1424,9 @@
 
 						"enterprise_plan": true,
 
-						"enterprise_plus_plan": true
+						"enterprise_plus_plan": true,
+
+						"status_planned": false
 
 					}
 
@@ -1147,7 +1450,9 @@
 
 						"enterprise_plan": "$69 per agent/mo",
 
-						"enterprise_plus_plan": "$89 per agent/mo"
+						"enterprise_plus_plan": "$89 per agent/mo",
+
+						"status_planned": false 
 
 					},
 
@@ -1161,7 +1466,9 @@
 
 						"enterprise_plan": "$79 per agent/mo",
 
-						"enterprise_plus_plan": "$99 per agent/mo"
+						"enterprise_plus_plan": "$99 per agent/mo",
+
+						"status_planned": false
 
 					}
 

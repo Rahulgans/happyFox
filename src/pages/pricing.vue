@@ -23,15 +23,13 @@
 
   import pricingToggleComponent from '../components/pricing-toggle.vue';
 
-  import Axios from 'axios';
-
   import pricingTableComponent from '../components/pricing-table.vue';
 
   export default {
 
     name: 'pricing-page',
 
-    props: [],
+    props: ['pricingPlanData', 'pricingFeaturesTable'],
 
     components: {
 
@@ -45,9 +43,7 @@
 
       return {
 
-        pricingPlanData: [],
-
-        pricingFeaturesTable: []
+      
 
       }
     
@@ -60,20 +56,6 @@
 
     created() {
 
-      Axios.get('../../assets/appData.json')
-
-      .then((response) => {
-
-        this.pricingPlanData = response.data.appData.pricingOptions;
-
-        this.pricingFeaturesTable = response.data.appData.pricingFeatures
-
-
-      }).catch((error) => {
-
-        console.log(error);
-
-      })
 
     },
   

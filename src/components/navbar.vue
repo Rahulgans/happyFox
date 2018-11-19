@@ -9,7 +9,7 @@
 
         <div class="hf__col-2">
           
-          <a class="hf__logo-link">
+          <a class="hf__logo-link" href="https://www.happyfox.com/help-desk-price/">
             
             <img src="https://hfweb-assets.s3.amazonaws.com/v2/images/Help-desk-customer-support.svg" class="hf__logo"
 
@@ -23,13 +23,35 @@
 
           <ul class="hf__list hf__navigation-menuList">
             
-            <li class="hf__navigation-list-item"><a class="hf__navigation-link" href="#">Product</a></li>
+            <li class="hf__navigation-list-item" v-for="(productType, index) in productFeatures">
 
-            <li class="hf__navigation-list-item"><a class="hf__navigation-link" href="#">Solutions</a></li>
+              <a class="hf__navigation-link" href="#">{{ productType.category }}</a>
 
-            <li class="hf__navigation-list-item"><a class="hf__navigation-link" href="#">Integrations</a></li>
+              <!-- <div class="hf__navigation-dropdown" v-show="currentIndex == index">
 
-            <li class="hf__navigation-list-item"><a class="hf__navigation-link" href="#">Resources</a></li>
+                <div class="hf__container">
+                
+                  <div class="hf__navigation-dropdown-block">
+                    
+                    <div class="hf__row">
+
+                      <div class="hf__col-3">
+                        
+                        <p class="hf__navigation-dropdown-title">{{ productType.category }}</p>
+
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div> -->
+
+            </li>
+
 
           </ul>
 
@@ -47,10 +69,10 @@
 
         </div>
       
-
       </div>
 
     </div>
+
 
   </header>
 
@@ -62,6 +84,7 @@
 
   import hfButtonComponent from './button.vue';
 
+
   export default {
 
     name: 'navbar',
@@ -72,12 +95,13 @@
 
     },
 
-    props: [],
+    props: ["productFeatures"],
 
     data() {
 
       return {
 
+        currentIndex: -1,
 
       }
       
@@ -103,6 +127,18 @@
       scheduleDemo() {
 
         return
+
+      },
+
+      onListItemHover(index) {
+
+        this.currentIndex = index;
+
+      },
+
+      onListItemBlur(index) {
+
+        this.currentIndex = -1;
 
       }
 
@@ -160,7 +196,43 @@
 
   .hf__navigation-link {
 
+    text-transform: capitalize;
+
     padding: 5px 10px;
+
+  }
+
+  .hf__navigation-dropdown {
+
+    position: absolute;
+
+    right: 0;
+
+    left: 0;
+
+    top: 100%;
+
+    background-color: white;
+
+    z-index: 10;
+
+  }
+
+  .hf__navigation-dropdown-title {
+
+    font-size: 24px;
+
+    font-weight: 300;
+
+    text-transform: capitalize;
+
+  }
+
+  .hf__navigation-dropdown-block {
+
+    display: flex;
+
+    padding: 24px 0px;
 
   }
 

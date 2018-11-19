@@ -7,7 +7,7 @@
       
       <div class="hf__col-12 hf__pricing-table-header" :class="{'hf__pricing-table-header--fixed': isTableHeaderFixed}">
 
-        <div class="hf__container">
+        <div class="hf__container hf__pricing-table-header-block">
 
           <div class="hf__row">
           
@@ -67,7 +67,11 @@
                 
                 <div class="hf__col-4">
                     
-                  <p class="hf__pricing-table-feature-title">{{ field.sub_title }}</p>
+                  <p class="hf__pricing-table-feature-title">{{ field.sub_title }}
+
+                    <span v-show="field.status_planned">*</span>
+
+                  </p>
 
                 </div>
 
@@ -176,6 +180,8 @@
         </div>
 
         <div class="hf__pricing-table-action">
+
+          <p class="hf__pricing-feature-planned--text"><span class="hf__pricing-legend--symbol">*</span>Planned</p>
 
           <hf-button-component :onClickAction="scheduleDemo" class="hf__primary-btn hf__schedule-btn">Schedule a Demo</hf-button-component>
 
@@ -308,10 +314,6 @@
 
   padding-top: 16px;
 
-  padding-bottom: 24px;
-
-  border-bottom: 1px solid #b3b3b3;
-
 }
 
 .hf__pricing-table-header--fixed {
@@ -322,11 +324,17 @@
 
   background-color: white;
 
-  z-index: 10;
-
-  border: none;
+  z-index: 8;
 
   box-shadow: 0 6px 30px 0 rgba(0,0,0,0.05);
+
+}
+
+.hf__pricing-table-header-block {
+
+  padding-bottom: 24px;
+
+  border-bottom: 1px solid rgba(179, 179, 179, 0.25);
 
 }
 
@@ -399,6 +407,20 @@
   margin: 56px 0px;
 
   text-align: center;
+
+}
+
+.hf__pricing-feature-planned--text {
+
+  text-align: left;
+
+}
+
+.hf__pricing-legend--symbol {
+
+  padding-right: 8px;
+
+  font-weight: 300;
 
 }
 
